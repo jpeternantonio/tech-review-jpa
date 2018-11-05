@@ -701,7 +701,7 @@
 
 #top1 {
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 60px;
@@ -796,7 +796,7 @@
   position: relative;
   width: 600px;
   height: 350px;
-  /*margin:80px auto;*/
+  
   
 }
 
@@ -1474,6 +1474,10 @@
     padding: 0;
   }
 
+  .navbar-nav {
+    text-align: center;
+  }
+
   .img-fluid {
     height: 350px;
   }
@@ -1670,7 +1674,8 @@
 .contain .box9 {
     margin-top: 5px;
     height: 600px;
-    width: 330px;
+    width: 340px;
+    margin-left: -10px;
     
   }
 
@@ -1687,6 +1692,10 @@
 /*landscape tablet*/
 
 @media only screen and (orientation: landscape) {
+
+  .head {
+    left: 6.5%;
+  }
 
   #pr1 {
   height: 160px;
@@ -1760,7 +1769,7 @@
 
 @media only screen and (min-width: 1025px) {
   .contain .box6 {
-    height: 320px;
+    height: 340px;
     width: 650px;
     /*margin-left: -20px;*/
   }
@@ -1798,6 +1807,11 @@
 
   /*laptop html*/
 
+  #ltop img {
+    width: 98.9vw;
+  }
+
+
   .contain .box9 {
     margin-top: 5px;
     height: 520px;
@@ -1828,6 +1842,9 @@
   width: 450px;
   }
 
+  .navbar-nav {
+    text-align: center;
+  }
 
   #center h1{
     text-align: center;
@@ -2118,7 +2135,7 @@
 
   #ltop img { 
     width: 100vw;
-    height: 83vh;
+    height: 50vh;
   }
 
   .swiper2-container {
@@ -2136,6 +2153,7 @@
 
   .contain .box9 {
   height: 420px;
+  margin-left: 20px;
   }
 
   
@@ -2166,18 +2184,24 @@
 
   #tright {
     margin-left: 0px;
+
   }
 
   .contain .box6 {
     height: 185px;
     width: 500px;
     margin-left: 90px;
+
   }
 
   .contain .box7 {
     height: 185px;
     width: 500px;
     margin-left: 70px;
+  }
+
+  .contain {
+    height: 220px;
   }
 
   #cont4 {
