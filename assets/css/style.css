@@ -20,7 +20,7 @@ body {
 }
 
 #loader h1 {
-  font-size: 6em;
+  font-size: 8em;
   color: white;
 }
 
@@ -321,6 +321,7 @@ body {
 @media only screen and (min-width: 401px) and (max-width: 768px), 
  (orientation: landscape) {
 
+  
   .container1 .column.active .content  h1{
     font-size: 5em;
   }
@@ -349,6 +350,11 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+  
+  #loader h1 {
+    font-size: 3.5em;
+  }
+
   .container1 .column .content .box {
     line-height: 1.2;
     padding: 10px 4px 10px 4px;
@@ -383,6 +389,8 @@ body {
 
   #hbutton {
     padding-left: 0px;
+    margin-left: 14px;
+
   }
 
   #snackbar {
